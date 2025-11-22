@@ -1,12 +1,18 @@
 def generate_profile(age):
-    """Return Life Stage"""
+    """
+    Return Life Stage.
+    Args:
+        age (int): First num
+    
+    Returns:
+        string: Life stage
+    """
     if 0 <= age <= 12:
         return "Child"
     elif 13 <= age <= 19:
         return "Teenager"
     elif age >= 20:
         return "Adult"
-
 
 def main():
     """Create and Print user profile"""
